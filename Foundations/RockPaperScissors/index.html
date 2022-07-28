@@ -4,8 +4,43 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="game.js"></script>
+    <link rel="stylesheet" href="style.css" />
     <title>Rock Paper Scissors!</title>
   </head>
-  <body></body>
+  <body>
+    <header id="header">
+      <h1 id="title">ROCK-PAPER-SCISSORS</h1>
+    </header>
+    <div class="modal">
+      <div class="modal-content">
+        <img src="./images/tryagain.png" alt="Try again icon" height="40px">
+        <span>TRY AGAIN?</span>
+      </div>
+    </div>
+    <div class="scores">
+      <div class="playerPts">Player:</div>
+      <div class="computerPts">Computer:</div>
+    </div>
+    <div class="container">
+      <div class="wrapper btn fade-in" id="rock">
+        <img src="./images/rock.png" alt="Rock Button" />
+      </div>
+      <div class="wrapper btn fade-in" id="paper">
+        <img src="./images/paper.png" alt="Paper Button" />
+      </div>
+      <div class="wrapper btn fade-in" id="scissors">
+        <img src="./images/scissors.png" alt="Scissors Button" />
+      </div>
+    </div>
+    <div class="summaryContainer"></div>
+    <footer id="footer">
+      <a
+        href="https://www.vecteezy.com/vector-art/691489-retro-offset-rock-paper-scissors-icons"
+        target="_blank"
+        >Rock Paper Scissors Vectors by Vecteezya</a
+      >
+    </footer>
+
+    <script src="./game.js"></script>
+  </body>
 </html>
